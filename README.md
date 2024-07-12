@@ -13,7 +13,7 @@ Visit the [Alloy Docs site](https://docs.runalloy.com/docs) for more information
 You can install the SDK by cloning this repo or running
 
 ```bash
-pip3 install git+https://github.com/onedebos/alloy-python-sdk-ai.git [--break-system-packages]
+pip3 install alloy-python-sdk-ai
 ```
 
 <!-- End SDK Installation [installation] -->
