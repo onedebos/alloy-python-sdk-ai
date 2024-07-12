@@ -29,7 +29,7 @@ import alloypythonsdk
 from alloypythonsdk.models import operations
 
 s = alloypythonsdk.AlloyPythonSDK(
-    api_key="<YOUR_API_KEY_HERE>",
+    api_key="bearer <YOUR_API_KEY_HERE>",
 )
 
 
@@ -105,7 +105,7 @@ import alloypythonsdk
 from alloypythonsdk.models import errors, operations
 
 s = alloypythonsdk.AlloyPythonSDK(
-    api_key="<YOUR_API_KEY_HERE>",
+    api_key="bearer <YOUR_API_KEY_HERE>",
 )
 
 res = None
@@ -147,7 +147,7 @@ from alloypythonsdk.models import operations
 
 s = alloypythonsdk.AlloyPythonSDK(
     server_idx=0,
-    api_key="<YOUR_API_KEY_HERE>",
+    api_key="bearer <YOUR_API_KEY_HERE>",
 )
 
 
@@ -169,7 +169,7 @@ from alloypythonsdk.models import operations
 
 s = alloypythonsdk.AlloyPythonSDK(
     server_url="https://embedded.runalloy.com/2024-03/",
-    api_key="<YOUR_API_KEY_HERE>",
+    api_key="bearer <YOUR_API_KEY_HERE>",
 )
 
 
@@ -221,7 +221,7 @@ import alloypythonsdk
 from alloypythonsdk.models import operations
 
 s = alloypythonsdk.AlloyPythonSDK(
-    api_key="<YOUR_API_KEY_HERE>",
+    api_key="bearer <YOUR_API_KEY_HERE>",
 )
 
 
