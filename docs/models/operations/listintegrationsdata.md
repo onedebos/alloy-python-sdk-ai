@@ -1,0 +1,12 @@
+# ListIntegrationsData
+
+
+## Fields
+
+| Field                                                              | Type                                                               | Required                                                           | Description                                                        | Example                                                            |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| `integration_id`                                                   | *Optional[str]*                                                    | :heavy_minus_sign:                                                 | N/A                                                                | 63ea758e82c3074141968bb9                                           |
+| `app`                                                              | *Optional[str]*                                                    | :heavy_minus_sign:                                                 | N/A                                                                | Magento                                                            |
+| `installed`                                                        | *Optional[bool]*                                                   | :heavy_minus_sign:                                                 | N/A                                                                | false                                                              |
+| `icon`                                                             | *Optional[str]*                                                    | :heavy_minus_sign:                                                 | N/A                                                                | https://cdn.runalloy.com/icons/magento.png                         |
+| `workflows`                                                        | List[[operations.Workflows](../../models/operations/workflows.md)] | :heavy_minus_sign:                                                 | N/A                                                                |                                                                    |

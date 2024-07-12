@@ -1,0 +1,11 @@
+# GetCredentialMetadataData
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          | Example                                                              |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `name`                                                               | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | N/A                                                                  | acuityScheduling                                                     |
+| `icon`                                                               | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | N/A                                                                  | acuityScheduling.png                                                 |
+| `is_oauth`                                                           | *Optional[bool]*                                                     | :heavy_minus_sign:                                                   | N/A                                                                  | false                                                                |
+| `properties`                                                         | List[[operations.Properties](../../models/operations/properties.md)] | :heavy_minus_sign:                                                   | N/A                                                                  |                                                                      |

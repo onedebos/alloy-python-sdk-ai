@@ -1,0 +1,10 @@
+# RerunWorkfowRequest
+
+
+## Fields
+
+| Field                                                                                       | Type                                                                                        | Required                                                                                    | Description                                                                                 |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `workflow_id`                                                                               | *str*                                                                                       | :heavy_check_mark:                                                                          | The Id of the workflow you want to find logs for                                            |
+| `execution_id`                                                                              | *str*                                                                                       | :heavy_check_mark:                                                                          | The Id of the execution to rerun. This can be retrieved from the GET Workflow Logs endpoint |
+| `user_id`                                                                                   | *str*                                                                                       | :heavy_check_mark:                                                                          | The Id of the user you want delete logs for. Returned from the Create User endpoint         |

@@ -1,0 +1,27 @@
+speakeasyVersion: 1.332.1
+sources:
+    alloy-openapi-spec:
+        sourceNamespace: alloy-openapi-spec
+        sourceRevisionDigest: sha256:217279cb023c778dee79c124f36d52a0fd2b6d21b629a74d49ecf4d06cf53434
+        sourceBlobDigest: sha256:3e01bc778b5dd7527d10bddf51d05251eb8c27daf9bebfec98675aa60147b8a1
+        tags:
+            - latest
+targets:
+    alloy-python-sdk:
+        source: alloy-openapi-spec
+        sourceNamespace: alloy-openapi-spec
+        sourceRevisionDigest: sha256:217279cb023c778dee79c124f36d52a0fd2b6d21b629a74d49ecf4d06cf53434
+        sourceBlobDigest: sha256:3e01bc778b5dd7527d10bddf51d05251eb8c27daf9bebfec98675aa60147b8a1
+        outLocation: /Users/adebola/Documents/alloy-open-api-spec/alloy-python-sdk
+workflow:
+    workflowVersion: 1.0.0
+    sources:
+        alloy-openapi-spec:
+            inputs:
+                - location: https://raw.githubusercontent.com/onedebos/alloy-openapi-spec/main/alloy-embedded-openapi.json
+            registry:
+                location: registry.speakeasyapi.dev/al/al/alloy-openapi-spec
+    targets:
+        alloy-python-sdk:
+            target: python
+            source: alloy-openapi-spec

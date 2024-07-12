@@ -1,0 +1,11 @@
+workflowVersion: 1.0.0
+sources:
+    alloy-openapi-spec:
+        inputs:
+            - location: https://raw.githubusercontent.com/onedebos/alloy-openapi-spec/main/alloy-embedded-openapi.json
+        registry:
+            location: registry.speakeasyapi.dev/al/al/alloy-openapi-spec
+targets:
+    alloy-python-sdk:
+        target: python
+        source: alloy-openapi-spec
